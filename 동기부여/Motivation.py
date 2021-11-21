@@ -1,3 +1,10 @@
+import discord
+import random
+
+
+client = discord.Client()
+
+
 @client.event
 async def on_message(message):
     if message.content == "동기부여":
